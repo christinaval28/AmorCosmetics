@@ -121,3 +121,16 @@ h1 {
 #custom-navbar {
     background-color: #9aa4ed !important;
 }
+
+#facebook {
+    text-align: center;
+}
+
+
+.link-icon {
+    color: darkslategray;
+}
+
+.list-none {
+    list-style: none;
+}
