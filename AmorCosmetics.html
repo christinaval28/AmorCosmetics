@@ -18,7 +18,7 @@
 </head>
 
 <body>
-   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="custom-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="custom-navbar">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,11 +40,22 @@
                     <a class="nav-link" href="#">About Us</a>
                 </li>
             </ul>
+            <!-- Button trigger modal -->
+            <button type="button" id="viewCartButton" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                <span>View Cart</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>
+            </button>
             <span class="AmorCosmetics" class="container">
                 <img src="./logo.png" class="logo" alt="AmorCosmetics Logo">
                 <div class="topright">
                 </div>
             </span>
+
         </div>
     </nav>
     <div class="container">
@@ -53,30 +64,13 @@
         <div class="shape-blob one"></div>
         <div class="shape-blob two"></div>
     </div>
-            <span class="AmorCosmetics" class="container">
-
-                <!-- Button trigger modal -->
-                <button type="button" id="viewCartButton" class="btn btn-primary" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    <span>View Cart</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-cart" viewBox="0 0 16 16">
-                        <path
-                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                    </svg>
-                </button>
-                <img src="./logo.png" class="logo" alt="AmorCosmetics Logo">
-                <div class="topright">
-                </div>
-            </span>
+    <span class="AmorCosmetics" class="container">
+        <img src="./logo.png" class="logo" alt="AmorCosmetics Logo">
+        <div class="topright">
         </div>
-    </nav>
-    <div class="container">
-        <h1>You Set <br> The Beauty Standard</h1>
-        <div class="shape-blob"></div>
-        <div class="shape-blob one"></div>
-        <div class="shape-blob two"></div>
+    </span>
     </div>
+    </nav>
 
     <div class="about-section">
         <h1>About Us</h1>
