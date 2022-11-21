@@ -134,3 +134,18 @@ h1 {
 .list-none {
     list-style: none;
 }
+
+#AboutUs {
+    text-align: center;
+}
+
+#viewCartButton {
+    color: white;
+    background-color: #E7C6FF;
+    text-emphasis-color: white;
+}
+
+#btn-btn-outline {
+    color: white;
+    background-color: #E7C6FF;
+}
