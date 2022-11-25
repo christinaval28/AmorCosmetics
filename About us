@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amor Cosmetics</title>
+    <!-- New Version -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Old Version -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top px-5" id="custom-navbar">
+        <a class="navbar-brand" href="#">Best Sellers</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Products <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gifts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+            </ul>
+            <span class="AmorCosmetics" class="container">
+
+                <!-- Button trigger modal -->
+                <button type="button" id="viewCartButton" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    <span>View Cart</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-cart" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                    </svg>
+                </button>
+                <img src="./logo.png" class="logo" alt="AmorCosmetics Logo">
+                <div class="topright">
+                </div>
+            </span>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>You Set <br> The Beauty Standard</h1>
+        <div class="shape-blob"></div>
+        <div class="shape-blob one"></div>
+        <div class="shape-blob two"></div>
+    </div>
+
+    <div class="about-section">
+        <h1>About Us</h1>
+        <p>Amor Cosmetic was founded by four phenomenal women who love everything about skin. Our mission is to provide the highest skincare and cosmetic product to enhance every skin type. </p>
+        <p>Resize the browser window to see that this page is responsive by the way.</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col">
+            <div class=" m-auto card h-100" style="width: 18rem;">
+                <img class="card-img-top"
+                    src="https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2978&q=80"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Ruby Red Lip Stick</h5>
+                    <p class="card-text text-muted">$9.99</p>
+                    <button class="btn btn-primary" id="rubyRedCardButton">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="m-auto card h-100" style="width: 18rem;">
+                <img class="card-img-top"
+                    src="https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2978&q=80"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Ruby Red Lip Stick</h5>
+                    <p class="card-text text-muted">$9.99</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="m-auto card h-100" style="width: 18rem;">
+                <img class="card-img-top"
+                    src="https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2978&q=80"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Ruby Red Lip Stick</h5>
+                    <p class="card-text text-muted">$9.99</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="social-share social">
+        <div class="row text-center justify-content-center">
+            <div class="col-1">
+                <a class="twitter" href="https://twitter.com/home?lang=en" id="twitter'">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="black" class="bi bi-twitter"
+                        viewBox="0 0 25 25">
+                        <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-1">
+                <a class="instagram" href="https://www.instagram.com" id="instagram'">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="black" class="bi bi-instagram"
+                        viewBox="0 0 25 25">
+                        <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-1">
+                <a class="facebook" href="https://www.facebook.com" id="facebook'">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="black" class="bi bi-facebook"
+                        viewBox="0 0 25 25">
+                        <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-1">
+                <a class="tiktok" href="https://www.tiktok.com" id="tiktok'">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="black" class="bi bi-tiktok"
+                        viewBox="0 0 25 25">
+                        <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-6">
+                                Ruby Red LipStick
+                            </div>
+                            <div class="col-6">
+                                <div id="rubyRedInput" class="btn-group border" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-sm btn-primary subtractionButton">-</button>
+                                    <span class="text-center m-auto px-5 viewOuput">0</span>
+                                    <button type=" button" class="btn btn-sm btn-primary additionButton">+</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="mt-5 border-top">
+                            <div class="row">
+                                <div class="col-6">
+                                    Total Items: <span id="totalItems">0</span>
+                                </div>
+                                <div class="col-6">
+                                    Total Price: $<span id="totalPrice">0.00</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Proceed to checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+            integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+            crossorigin="anonymous"></script>
+        <script src="./app.js">  </script>
+        <script>
+            const myModal = document.getElementById('exampleModal')
+            const myInput = document.getElementById('viewCartButton')
+            myModal.addEventListener('shown.bs.modal', () => {
+                myInput.focus()
+            })
+        </script>
+
+</body>
+
+</html>
