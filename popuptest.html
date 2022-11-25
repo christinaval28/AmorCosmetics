@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Sliding Modal Box Style</title>
+      <link rel="stylesheet" href="popuptest.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <body>
+    
+      <div class="start-btn">
+          
+         <a href="#">Click here to sign up for emails!</a>
+      </div>
+       
+      <div class="center modal-box">
+         <div class="fas fa-times"></div>
+         <div class="fas fa-envelope icon1"></div>
+         <header>Don't miss updates from Amor Cosmetics!</header>
+         <p>
+        Be the first one to hear about Amor Cosmetics' new releases and promotions. Plus, we will give you a 15% coupon just for signing up!
+         </p>
+         <form action="">
+            <div class="fas fa-envelope icon2"></div>
+            <input type="email" required placeholder="abc@example.com">
+            <button>Subscribe</button>
+         </form>
+         <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+         </div>
+      </div>
+      <script>
+          
+         $(document).ready(function(){
+           $('.start-btn').click(function(){
+             $('.modal-box').toggleClass("show-modal");
+             $('.start-btn').toggleClass("show-modal");
+           });
+           $('.fa-times').click(function(){
+             $('.modal-box').toggleClass("show-modal");
+             $('.start-btn').toggleClass("show-modal");
+           });
+         });
+          
+      </script>
+   </body>
+</html>
