@@ -135,7 +135,7 @@ h1 {
     list-style: none;
 }
 
-#AboutUs {
+#about-section {
     text-align: center;
 }
 
@@ -145,7 +145,410 @@ h1 {
     text-emphasis-color: white;
 }
 
-#btn-btn-outline {
+
+.btn-group button {
     color: white;
     background-color: #E7C6FF;
+    text-emphasis-color: white;
+
+}
+
+
+
+
+
+
+
+
+* {
+    font-family: Open Sans;
+}
+
+section {
+    width: 100%;
+    display: inline-block;
+    background: #E7C6FF;
+    height: 50vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.footer-distributed {
+    background: #B8C0FF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 0 !important;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: black;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: lightseagreen;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+}
+
+
+.btn-primary {
+    color: white;
+    background-color: #E7C6FF;
+    text-emphasis-color: white;
+    border-color: #c398e2;
+}
+
+.btn-primary:hover {
+    background-color: #c398e2;
+    border-color: #c398e2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::selection {
+    color: white;
+    background: #E7C6FF;
+}
+
+.center,
+.start-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start-btn a {
+    font-size: 25px;
+    background: white;
+    color: #E7C6FF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
+}
+
+.modal-box {
+    position: fixed;
+    z-index: 999;
+    top: 40%;
+    opacity: 0;
+    visibility: hidden;
+    background: white;
+    height: auto;
+    width: 400px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #E7C6FF;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
+}
+
+.start-btn.show-modal {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-box.show-modal {
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+    transition: .4s;
+}
+
+.modal-box .fa-times {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #E7C6FF;
+    height: 45px;
+    width: 50px;
+    line-height: 40px;
+    color: white;
+    font-size: 18px;
+    border-radius: 0 5px 0 50px;
+    padding-left: 13px;
+    cursor: pointer;
+}
+
+.fa-times:hover {
+    font-size: 22px;
+}
+
+.modal-box .icon1 {
+    font-size: 60px;
+    background: #E7C6FF;
+    height: 120px;
+    width: 120px;
+    color: white;
+    border-radius: 50%;
+    line-height: 120px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.modal-box header {
+    font-size: 31px;
+    font-family: 'Lobster Two';
+    margin-bottom: 10px;
+}
+
+.modal-box p {
+    /* margin-bottom: 10px; */
+    line-height: 20px;
+    color: grey;
+}
+
+form input,
+form button {
+    height: 50px;
+    width: 95%;
+    border-radius: 3px;
+}
+
+form .icon2 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    background: #E7C6FF;
+    color: white;
+    line-height: 50px;
+    font-size: 24px;
+    border-radius: 5px 0 0 5px;
+}
+
+form input {
+    margin-top: 15px;
+    padding: 0 65px;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid #1ed2fa;
+    caret-color: #E7C6FF;
+}
+
+input::placeholder {
+    color: #8c8c8c;
+}
+
+form input:focus {
+    box-shadow: 0 0 15px #E7C6FF,
+        0 0 25px #E7C6FF,
+        0 0 35px #ffffff;
+}
+
+form button {
+    margin-top: 15px;
+    background: #E7C6FF;
+    color: white;
+    font-size: 25px;
+    border: 1px solid #E7C6FF;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+}
+
+form button:hover {
+    background: #E7C6FF;
+    border: 1px solid #E7C6FF;
+    letter-spacing: 2px;
+}
+
+.modal-box .icons {
+    margin-top: 25px;
+}
+
+.icons i {
+    font-size: 22px;
+    margin: 0 7px;
+    color: #E7C6FF;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    transform: scale(1.1);
+    color: #E7C6FF;
 }
